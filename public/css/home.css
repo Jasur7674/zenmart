@@ -1041,10 +1041,6 @@
 .spec_product_frame .small_product_box img {
   position: absolute;
   right: 30px;
-  top: 40px;
+  bottom: 15px;
 }
 
-/* .small_product_box img:nth-child(4) {
-  position: absolute;
-  top: 60px;
-} */
