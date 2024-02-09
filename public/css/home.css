@@ -279,7 +279,7 @@
 /* Bu yerdan header boshlanadi */
 
 .home_page {
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   display: flex;
   flex-direction: column;
 }
@@ -1141,6 +1141,7 @@
   justify-content: center;
 
   background-image: url("../images/icons/event_bg.png");
+  background-size: cover;
 }
 
 .event_frame .container {
