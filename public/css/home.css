@@ -1,280 +1,4 @@
-.navbar_frame {
-  position: relative;
-  width: 100%;
-  height: 145px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background: #443297;
-}
 
-.container {
-  position: relative;
-  padding: 20px 0px 14px;
-  width: 1320px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.navbar_top {
-  width: 100%;
-  height: 50px;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.navbar_top > a img {
-  margin-right: 76px;
-  width: 117px;
-  height: 36px;
-}
-
-.navbar_top .nav_search_frame {
-  width: 650px;
-  height: 50px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background: #fff;
-  border-radius: 6px;
-}
-
-.navbar_top .search_box {
-  padding: 10px 17px;
-  width: auto;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.search_box .category_list {
-  width: 166px;
-  height: 30px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  border-right: 1px solid #d6d6d6;
-}
-
-.category_list select {
-  width: 140px;
-  height: 30px;
-
-  border: none;
-  outline: none;
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  color: #841e42;
-}
-
-.search_box input {
-  margin-left: 12px;
-  width: 387px;
-  height: 22px;
-
-  border: none;
-  outline: none;
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  color: #626974;
-}
-
-.nav_search_frame .search_icon_box {
-  width: 50px;
-  height: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #f5c34b;
-  border-radius: 0px 6px 6px 0px;
-}
-
-.search_icon_box img {
-  width: 20px;
-  height: 20px;
-}
-
-.navbar_top .nav_top_menu {
-  margin-left: 59px;
-  width: 416px;
-  height: 50px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.nav_top_menu .top_menu_box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  cursor: pointer;
-}
-
-.top_menu_box .box_icon_box {
-  position: relative;
-  margin-right: 16px;
-  width: 54px;
-  height: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
-}
-
-.box_icon_box img {
-  width: 22px;
-  height: 22px;
-}
-
-.top_menu_box .box_info_box {
-  display: flex;
-  flex-direction: column;
-}
-
-.box_info_box span {
-  font-family: "jost";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 22px;
-  color: #ffffff;
-}
-
-.box_info_box strong {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
-}
-
-.box_icon_box .basket_count {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  top: -2px;
-  right: -3px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: #f5c34b;
-  border-radius: 50%;
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 8px;
-  color: #881e40;
-}
-
-.navbar_bottom {
-  margin-top: 20px;
-  width: 100%;
-  height: 40px;
-
-  display: flex;
-  flex-direction: row;
-
-  border-top: 1px solid #5746a1;
-  /* background-color: blue; */
-}
-
-.navbar_bottom .navbar_bottom_menu_box {
-  margin-top: 10px;
-  width: auto;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.navbar_bottom_menu_box .browse_box {
-  width: 185px;
-  height: 30px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-right: 1px solid #5746a1;
-}
-
-.browse_box img {
-  margin-right: 10px;
-  width: 20px;
-  height: 18px;
-}
-
-.browse_box span {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-}
-
-.navbar_bottom_menu_box .navbar_route_menu {
-  margin-left: 18px;
-  width: 690px;
-  display: flex;
-  flex-direction: row;
-}
-
-.navbar_route_menu .router_menu {
-  margin-right: 20px;
-  width: auto;
-  height: 41px;
-
-  display: flex;
-}
-
-.router_menu a {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 28px;
-  color: #ffffff;
-}
-
-.router_menu a.active {
-  color: #f5c34b;
-}
-
-.navbar_bottom_menu_box .sorting_menu {
-  display: flex;
-  flex-direction: row;
-}
-
-.sorting_menu span {
-  margin-left: 20px;
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 28px;
-  color: #ffffff;
-}
 
 /* Bu yerdan header boshlanadi */
 
@@ -317,7 +41,7 @@
   margin-left: 30px;
   color: var(--Color-Text-Dark, #041e42);
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -443,7 +167,7 @@
   color: var(--Bg-White, #fff);
   /* text-align: center; */
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -463,7 +187,7 @@
 
 .container .product_content_box .product_title {
   color: var(--Color-Text-Light, #626974);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -480,7 +204,7 @@
   /* text-overflow: ellipsis; */
   /* white-space: nowrap; */
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -502,7 +226,7 @@
   margin-left: 10px;
   color: var(--Color-Text-Light, #626974);
 
-  font-family: "Jost";
+  font-family: var(--font-family);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -520,7 +244,7 @@
 .container .price_box strong {
   color: var(--Color-Text-Dark, #041e42);
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -530,7 +254,7 @@
 .container .price_box span {
   margin-left: 10px;
   color: var(--Color-Text-Light, #626974);
-  font-family: "Jost";
+  font-family: var(--font-family);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -583,7 +307,7 @@
   background: #f5c34b;
 
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
@@ -595,7 +319,7 @@
   width: 428px;
 
   color: var(--Bg-White, #fff);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
@@ -606,7 +330,7 @@
   margin-top: 10px;
 
   color: var(--Bg-White, #fff);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -626,7 +350,7 @@
   border-radius: 6px;
 
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -667,7 +391,7 @@
 
 .header_frame .box_left span {
   color: #0053f6;
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -678,7 +402,7 @@
   margin: 10px 0px;
 
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 26px;
   font-style: normal;
   font-weight: 500;
@@ -687,7 +411,7 @@
 
 .header_frame .box_left a {
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -750,7 +474,7 @@
 }
 
 .service_frame .service_content span {
-  font-family: "Jost";
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -759,7 +483,7 @@
 }
 
 .service_frame .service_content p {
-  font-family: "Jost";
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -796,7 +520,7 @@
 
 .shop_category_frame .category_top span {
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -806,7 +530,7 @@
 .shop_category_frame .category_top a {
   color: var(--Color-Text-Dark, #041e42);
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -858,7 +582,7 @@
   color: var(--Color-Text-Dark, #041e42);
   text-align: center;
 
-  font-family: "Jost";
+  font-family: var(--font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -921,7 +645,7 @@
   background-color: #e5edff;
   color: #0053f6;
 
-  font-family: "Jost";
+  font-family: var(--font-family);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -978,7 +702,7 @@
 
 .spec_product_frame .big_product_content span {
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -988,7 +712,7 @@
 .spec_product_frame .big_product_content p {
   margin: 7px 0px;
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -997,7 +721,7 @@
 
 .spec_product_frame .big_product_content a {
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -1047,7 +771,7 @@
 .spec_product_frame .small_product_content strong {
   color: var(--Color-Text-Dark, #041e42);
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -1057,7 +781,7 @@
 .spec_product_frame .small_product_content span {
   color: var(--Color-Text-Light, #626974);
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -1159,7 +883,7 @@
 }
 
 .event_frame .event_content_box .event_title {
-  font-family: "Jost";
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -1188,7 +912,7 @@
 .event_frame .timer_box strong {
   color: var(--Bg-White, #fff);
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -1198,7 +922,7 @@
 .event_frame .timer_box span {
   color: var(--Bg-White, #fff);
 
-  font-family: Jost;
+  font-family: var(--font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -1219,7 +943,7 @@
   border: 1px solid #ffffff;
   border-radius: 6px;
 
-  font-family: "Jost";
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
