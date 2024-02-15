@@ -11,8 +11,9 @@
   align-items: center;
 }
 
-
 .shop_page .product_category_top {
+padding-left: 200px;
+
   width: 100%;
   height: auto;
 
@@ -20,33 +21,32 @@
   flex-direction: row;
   align-items: center;
 
-  border: 1px solid var(--Color-Border, #EAEAEA);
-background: var(--Bg-White, #FFF);
+  border: 1px solid var(--Color-Border, #eaeaea);
+  background: var(--Bg-White, #fff);
 }
-
 
 .shop_page .product_category_top .container {
   height: 50px;
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
 }
 
 .shop_page .product_category_top .container div {
-  color: var(--Color-Text-Dark, #041E42);
+  color: var(--Color-Text-Dark, #041e42);
   width: 10%;
   display: flex;
   align-items: center;
 
-font-family: var(--font-family);
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .shop_page .product_category_top .container div:hover {
   cursor: pointer;
-  border-bottom: 2px solid #041E42;
+  border-bottom: 2px solid #041e42;
 }
 
 .shop_page .header_frame {
@@ -82,17 +82,17 @@ line-height: 22px;
   font-size: 28px;
   line-height: 40px;
 
-  color: #041E42;
+  color: #041e42;
 }
 
 .shop_page .header_content p {
-  color: var(--Color-Text-Dark, #041E42);
+  color: var(--Color-Text-Dark, #041e42);
 
-font-family: var(--font-family);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .shop_page .header_content a {
@@ -109,13 +109,13 @@ line-height: 28px;
   border: 1px solid #f5c34b;
   border-radius: 6px;
 
-  color: var(--Color-Text-Dark, #041E42);
+  color: var(--Color-Text-Dark, #041e42);
 
-font-family: var(--font-family);
-font-size: 15px;
-font-style: normal;
-font-weight: 500;
-line-height: 22px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
 }
 
 .shop_page .product_pagination_box {
@@ -161,7 +161,6 @@ line-height: 22px;
 }
 
 .shop_page .dot div {
-
   width: 4px;
   height: 4px;
 
@@ -289,7 +288,7 @@ line-height: 22px;
   font-size: 28px;
   line-height: 40px;
 
-  color: #041E42;
+  color: #041e42;
 }
 
 .shop_page .brands_frame .brands_wrapper {
@@ -315,7 +314,7 @@ line-height: 22px;
   line-height: 22px;
   text-align: center;
 
-  color: #041E42;
+  color: #041e42;
 }
 
 .shop_page .brands_wrapper .brand_box.active {
@@ -404,7 +403,7 @@ line-height: 22px;
   font-size: 15px;
   line-height: 28px;
 
-  color: #041E42;
+  color: #041e42;
 }
 
 .shop_page .product_content_box .review_box {
@@ -437,27 +436,26 @@ line-height: 22px;
 }
 
 .shop_page .price_box strong {
-  color: var(--Color-Text-Dark, #041E42);
+  color: var(--Color-Text-Dark, #041e42);
 
-font-family: var(--font-family);
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 28px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
 }
 
 .shop_page .price_box span {
   color: var(--Color-Text-Light, #626974);
 
   margin-left: 10px;
-font-family: var(--font-family);
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px;
-text-decoration-line: line-through;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration-line: line-through;
 }
-
 
 .shop_page .all_products_frame {
   margin: 60px 0px;
@@ -490,7 +488,7 @@ text-decoration-line: line-through;
   font-size: 15px;
   line-height: 22px;
 
-  color: #041E42;
+  color: #041e42;
 }
 
 .shop_page .all_products_frame .container .products_filters {
@@ -523,7 +521,7 @@ text-decoration-line: line-through;
   font-size: 15px;
   line-height: 22px;
 
-  color: #041e42
+  color: #041e42;
 }
 
 .shop_page .all_products_frame .container .products_wrap {
@@ -586,16 +584,10 @@ text-decoration-line: line-through;
 
 .shop_page .pagination_number_wrap .pagination_number_box.active {
   background: #f5c34b;
-  border:1px solid #f3f5f6;
-
+  border: 1px solid #f3f5f6;
 }
 
 .shop_page .pagination_number_wrap .pagination_number_box:hover {
   background: #f3f5f6;
   border: 1px solid #f3f5f6;
 }
-
-
-
-
-
