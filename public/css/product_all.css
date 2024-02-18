@@ -223,8 +223,9 @@ padding-left: 200px;
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: row; */
   justify-content: space-between;
+  /* align-items: center; */
 }
 
 /* There is problem */
@@ -234,6 +235,7 @@ padding-left: 200px;
   height: auto;
 
   /* justify-content: space-between; */
+  /* align-items: center; */
 
   display: flex;
   flex-direction: column;
@@ -252,6 +254,10 @@ padding-left: 200px;
   border: 1px solid #eaeaea;
   border-radius: 150px;
 }
+
+/* .shop_category_frame .category_box .category_img_box :nth-child(3) {
+  margin-left: 10px;
+} */
 
 .shop_category_frame .category_box span {
   margin-top: 14px;
